@@ -1031,6 +1031,8 @@ declare namespace __React {
          */
         flexShrink?: number;
 
+        flexWrap?: "nowarp" | "warp" | "wrap-reverse"
+
         /**
          * Elements which have the style float are floated horizontally. These elements can move as far to the left or right of the containing element. All elements after the floating element will flow around it, but elements before the floating element are not impacted. If several floating elements are placed after each other, they will float next to each other as long as there is room.
          */
@@ -1175,6 +1177,8 @@ declare namespace __React {
         hyphens?: any;
 
         imeMode?: any;
+        
+        justifyContent?: "flex-start" | "flex-end" | "center" | "space-between" | "space-around";
 
         layoutGrid?: any;
 
